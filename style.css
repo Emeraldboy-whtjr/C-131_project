@@ -1,9 +1,22 @@
 body{
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    background-color: black;
+    background-size: cover;
 }
 h1{
-    color: red;
+    color: rgb(0, 195, 255);
+}
+
+.button{
+    text-underline-offset: none;
+    color: rgb(2, 241, 229);
+    background-color: rgb(222, 15, 241);
+    padding: 10px;
+    font-family: cursive;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(222, 15, 241);
+    background-color: rgb(2, 241, 229);
 }

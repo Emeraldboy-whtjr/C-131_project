@@ -1,0 +1,27 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.button{
+    top: 20;
+    left: 10;
+    position: absolute;
+}
+
+.button:hover{
+    color: red;
+    background-color: white;
+    border-color: white;
+}
+
+.heading, #status, #obj, #objdtc{
+    size: 30px;
+    color: aqua;
+    font-weight: 700;
+}
+
+canvas{
+    border-style: ridge;
+    margin-top: 139px;
+}
